@@ -216,7 +216,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "lib_symbol_issues|2184400|609600|5d3e4f67-71cc-417e-957a-240736c769e4|00000000-0000-0000-0000-000000000000|||",
+      "lib_symbol_issues|838200|1371600|3fa396b9-6ce2-4132-9e3f-a9983859b8d1|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
