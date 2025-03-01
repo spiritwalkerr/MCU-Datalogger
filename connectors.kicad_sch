@@ -985,7 +985,7 @@
 	)
 	(hierarchical_label "RX"
 		(shape input)
-		(at 172.72 99.06 0)
+		(at 172.72 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1007,12 +1007,12 @@
 	)
 	(hierarchical_label "MISO"
 		(shape output)
-		(at 167.64 124.46 180)
+		(at 180.34 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "37da5f06-38dd-469a-a38f-4aea2782ff73")
 	)
@@ -1062,7 +1062,7 @@
 	)
 	(hierarchical_label "TX"
 		(shape output)
-		(at 172.72 101.6 0)
+		(at 172.72 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1128,12 +1128,12 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 180.34 127 0)
+		(at 167.64 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "90205984-a1fc-4ce5-836e-ecefa45d918b")
 	)
