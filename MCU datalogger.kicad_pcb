@@ -89,7 +89,7 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -118,9 +118,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../Gerber Files/MCU Datalogger/")
 		)
 	)
 	(property "project name" "MCU Datalogger with memory and clock")
@@ -2254,7 +2254,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 0 3.2 0)
-			(layer "F.SilkS")
+			(layer "F.Fab")
 			(uuid "a9a9551d-d346-407b-bd31-30e917da57c5")
 			(effects
 				(font
