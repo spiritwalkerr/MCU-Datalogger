@@ -3974,6 +3974,16 @@
 		)
 		(uuid "b938a320-a9eb-4728-9904-1c42cb1d3bbe")
 	)
+	(label "abc"
+		(at 182.88 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04a38d4b-6d13-4974-b8c3-49eea94855a8")
+	)
 	(label "D4"
 		(at 233.68 53.34 0)
 		(effects
