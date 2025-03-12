@@ -3116,7 +3116,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.754) (xy 119.38 68.58)
+			(xy 119.38 63.5) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3233,6 +3233,16 @@
 			(type default)
 		)
 		(uuid "5b8a875a-2bc6-4975-823d-936f7a7e5891")
+	)
+	(wire
+		(pts
+			(xy 187.96 144.78) (xy 190.5 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be3baae-fb22-47ff-827c-e4a5515f9760")
 	)
 	(wire
 		(pts
@@ -3556,16 +3566,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 27.94) (xy 248.92 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5d582c4-5fcc-4d71-bc3b-4094bf658973")
-	)
-	(wire
-		(pts
 			(xy 187.96 55.88) (xy 187.96 58.42)
 		)
 		(stroke
@@ -3623,16 +3623,6 @@
 			(type default)
 		)
 		(uuid "c684aa19-2d99-47b3-b7b2-a001799ab2e0")
-	)
-	(wire
-		(pts
-			(xy 119.38 56.134) (xy 119.38 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca97b21a-7e16-4a90-9906-183861f52686")
 	)
 	(wire
 		(pts
@@ -4054,7 +4044,7 @@
 		)
 		(uuid "1bc95294-5752-4896-a721-0a50788bfa31")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 147.32 142.24 180)
 		(effects
 			(font
@@ -4094,7 +4084,7 @@
 		)
 		(uuid "359420b3-0787-42d5-bedd-dc2917665228")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 132.08 137.16 0)
 		(effects
 			(font
@@ -4174,7 +4164,7 @@
 		)
 		(uuid "656ae42f-28ba-4aea-9238-18d8caaf62aa")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 187.96 127 180)
 		(effects
 			(font
@@ -4244,6 +4234,16 @@
 		)
 		(uuid "9d25c237-e0c0-47e0-94b4-0c0b89e7d82c")
 	)
+	(label "SCK"
+		(at 187.96 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d4bb7d9-85a1-4e75-b9b8-63f654e3bb1b")
+	)
 	(label "D3"
 		(at 233.68 50.8 0)
 		(effects
@@ -4294,7 +4294,7 @@
 		)
 		(uuid "ad60fdbd-9aea-4bf9-9871-57e1be7aa43c")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 66.04 66.04 180)
 		(effects
 			(font
@@ -4314,7 +4314,7 @@
 		)
 		(uuid "b81bd316-8327-45e1-8304-c67b6acf0881")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 200.66 78.74 180)
 		(effects
 			(font
@@ -4354,7 +4354,7 @@
 		)
 		(uuid "c55fee84-6a7c-4274-847f-f5c793b100ea")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 93.98 137.16 0)
 		(effects
 			(font
@@ -4842,7 +4842,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 59.944 0)
+		(at 119.38 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4851,7 +4851,7 @@
 		(fields_autoplaced yes)
 		(uuid "2023ea00-9db7-4a05-9eff-3ac280c40e4a")
 		(property "Reference" "R4"
-			(at 121.412 58.6739 0)
+			(at 121.412 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +4860,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 121.412 61.2139 0)
+			(at 121.412 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,7 +4869,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 117.602 59.944 90)
+			(at 117.602 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +4878,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 59.944 0)
+			(at 119.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,7 +4887,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 119.38 59.944 0)
+			(at 119.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4896,7 +4896,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 119.38 59.944 0)
+			(at 119.38 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,72 +4913,6 @@
 			(project "MCU datalogger"
 				(path "/9000079e-69eb-4cef-8509-5557f3341200"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 248.92 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2738448d-ff68-4656-a791-17a319e45a6a")
-		(property "Reference" "#FLG01"
-			(at 248.92 26.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 248.92 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 248.92 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b2d8300-7433-44b7-a23f-00d565520c6d")
-		)
-		(instances
-			(project ""
-				(path "/9000079e-69eb-4cef-8509-5557f3341200"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7513,7 +7447,7 @@
 			)
 			(uuid "33495e18-5439-4a58-a94c-3fcb5a8c5832")
 		)
-		(pin "SCK" passive
+		(pin "SCL" passive
 			(at 190.5 127 180)
 			(effects
 				(font
@@ -7642,6 +7576,16 @@
 				(justify left)
 			)
 			(uuid "63744802-7a29-4a5b-9cfd-eeafaa124bbb")
+		)
+		(pin "SCK" passive
+			(at 190.5 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "046e1ce9-6eca-4b0a-a736-2d0a0af44e16")
 		)
 		(instances
 			(project "MCU datalogger"
